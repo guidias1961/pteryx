@@ -8,7 +8,20 @@ const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => document.querySelectorAll(selector);
 const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
 const lerp = (start, end, factor) => start + (end - start) * factor;
-const formatTime = (timestamp) => new Date(timestamp).toLocaleString();
+const US_TZ = 'America/New_York';
+
+function formatTime(ts) {
+  return new Date(ts).toLocaleString('en-US', {
+    timeZone: US_TZ,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: false
+  });
+}
 
 // State Management
 const state = {
