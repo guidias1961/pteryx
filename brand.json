@@ -1,0 +1,205 @@
+{
+  "brand": {
+    "name": "PTERYX",
+    "tagline": "from fossil to block",
+    "description": "Evolution documented in blocks. Observe. Test. Iterate.",
+    "version": "1.0.0"
+  },
+  "colors": {
+    "primary": {
+      "deep_purple": {
+        "hex": "#1c0f2e",
+        "rgb": "28, 15, 46",
+        "hsl": "257, 51%, 12%",
+        "usage": "Primary backgrounds, deep shadows"
+      },
+      "magenta": {
+        "hex": "#ff2aad",
+        "rgb": "255, 42, 173",
+        "hsl": "323, 100%, 58%",
+        "usage": "Primary brand color, CTAs, highlights"
+      },
+      "electric_blue": {
+        "hex": "#5ad0ff",
+        "rgb": "90, 208, 255",
+        "hsl": "197, 100%, 68%",
+        "usage": "Secondary brand color, accents"
+      },
+      "graphite": {
+        "hex": "#0b0b12",
+        "rgb": "11, 11, 18",
+        "hsl": "240, 24%, 6%",
+        "usage": "Dark mode backgrounds"
+      },
+      "off_white": {
+        "hex": "#e7e7ee",
+        "rgb": "231, 231, 238",
+        "hsl": "240, 14%, 92%",
+        "usage": "Light mode text, contrast elements"
+      }
+    },
+    "semantic": {
+      "success": "#27ca3f",
+      "warning": "#ffbd2e", 
+      "error": "#ff5f56",
+      "info": "#5ad0ff"
+    },
+    "gradients": {
+      "brand_primary": "linear-gradient(135deg, #ff2aad, #5ad0ff)",
+      "background_dark": "linear-gradient(180deg, #0b0b12, #1c0f2e)",
+      "background_light": "linear-gradient(180deg, #e7e7ee, #f5f5f8)"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "headings": {
+        "family": "Inter Tight",
+        "weights": [600, 700],
+        "fallback": "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+        "usage": "Titles, headings, hero text"
+      },
+      "body": {
+        "family": "Inter",
+        "weights": [400, 500, 600],
+        "fallback": "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+        "usage": "Body text, navigation, UI elements"
+      },
+      "monospace": {
+        "family": "Monaco, Menlo, 'Courier New'",
+        "usage": "Code, terminal, contract addresses"
+      }
+    },
+    "scale": {
+      "xs": "0.75rem",
+      "sm": "0.875rem", 
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem",
+      "5xl": "3rem",
+      "6xl": "4rem"
+    }
+  },
+  "spacing": {
+    "scale": {
+      "xs": "0.25rem",
+      "sm": "0.5rem",
+      "md": "1rem",
+      "lg": "1.5rem", 
+      "xl": "2rem",
+      "2xl": "3rem",
+      "3xl": "4rem",
+      "4xl": "6rem",
+      "5xl": "8rem"
+    }
+  },
+  "animation": {
+    "durations": {
+      "fast": "0.15s",
+      "normal": "0.3s",
+      "slow": "0.5s",
+      "extra_slow": "1s"
+    },
+    "easings": {
+      "spring": "cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+      "ease_out": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "ease_in": "cubic-bezier(0.55, 0.055, 0.675, 0.19)",
+      "ease_in_out": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+    }
+  },
+  "layout": {
+    "breakpoints": {
+      "mobile": "320px",
+      "tablet": "768px", 
+      "desktop": "1024px",
+      "wide": "1200px"
+    },
+    "containers": {
+      "mobile": "100%",
+      "tablet": "750px",
+      "desktop": "970px", 
+      "wide": "1200px"
+    },
+    "grid": {
+      "columns": 12,
+      "gutter": "1.5rem"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": {
+        "background": "linear-gradient(135deg, #ff2aad, #5ad0ff)",
+        "color": "#ffffff",
+        "border": "none",
+        "padding": "1rem 2rem",
+        "border_radius": "8px"
+      },
+      "secondary": {
+        "background": "transparent",
+        "color": "#ff2aad", 
+        "border": "2px solid #ff2aad",
+        "padding": "1rem 2rem",
+        "border_radius": "8px"
+      },
+      "tertiary": {
+        "background": "transparent",
+        "color": "#a0a0b0",
+        "border": "none",
+        "padding": "1rem 2rem"
+      }
+    },
+    "cards": {
+      "default": {
+        "background": "#1c0f2e",
+        "border": "1px solid rgba(231, 231, 238, 0.1)",
+        "border_radius": "8px",
+        "padding": "1.5rem",
+        "shadow": "0 4px 20px rgba(0, 0, 0, 0.1)"
+      }
+    }
+  },
+  "icons": {
+    "style": "outline",
+    "stroke_width": 2,
+    "size": "24px",
+    "library": "Custom SVG + Lucide fallbacks"
+  },
+  "accessibility": {
+    "contrast_ratios": {
+      "normal_text": "4.5:1 minimum",
+      "large_text": "3:1 minimum", 
+      "ui_components": "3:1 minimum"
+    },
+    "focus_indicators": {
+      "color": "#ff2aad",
+      "width": "2px",
+      "offset": "2px",
+      "style": "solid outline"
+    }
+  },
+  "usage_guidelines": {
+    "logo": {
+      "minimum_size": "24px height",
+      "clear_space": "Equal to logo height on all sides",
+      "backgrounds": "Use high contrast versions appropriately"
+    },
+    "colors": {
+      "primary_usage": "Use magenta for primary actions and key highlights",
+      "secondary_usage": "Use electric blue for secondary actions and accents", 
+      "background_usage": "Maintain proper contrast ratios"
+    },
+    "typography": {
+      "hierarchy": "Use consistent scale for content hierarchy",
+      "line_height": "1.6 for body text, 1.2 for headings",
+      "measure": "45-75 characters per line for optimal readability"
+    }
+  },
+  "brand_voice": {
+    "tone": "Scientific, precise, observational",
+    "personality": ["Analytical", "Curious", "Methodical", "Forward-thinking"],
+    "avoid": ["Marketing hype", "Financial promises", "Emotional manipulation"],
+    "preferred_language": ["Documented", "Observed", "Analyzed", "Tested", "Verified"]
+  }
+}

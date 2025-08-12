@@ -1,0 +1,76 @@
+{
+  "commands": {
+    "help": "Display available research terminal commands",
+    "notes": "Show recent field observations and measurements",
+    "lore": "Display evolutionary timeline and key discoveries",
+    "socials": "Show project social media and communication channels",
+    "clear": "Clear terminal display for new session"
+  },
+  "notes": [
+    {
+      "date": "2024-03-15",
+      "observation": "Specimen UV-7742: Wing membrane traces detected under ultraviolet light. Preservation exceptional."
+    },
+    {
+      "date": "2024-03-16", 
+      "observation": "Comparative analysis with Solnhofen specimens shows 15% larger wingspan. Flight capability significantly enhanced."
+    },
+    {
+      "date": "2024-03-17",
+      "observation": "Isotope ratios indicate marine-influenced diet. Coastal environment confirmed through sediment analysis."
+    },
+    {
+      "date": "2024-03-18",
+      "observation": "Microscopic examination reveals bacteria-mediated fossilization process. Soft tissue details preserved at cellular level."
+    },
+    {
+      "date": "2024-03-19",
+      "observation": "Digital tomography reveals previously unknown pneumatic bone structure. Weight reduction approximately 12%."
+    },
+    {
+      "date": "2024-03-20",
+      "observation": "Feather barbule microstructure analyzed. Asymmetrical design confirms powered flight rather than gliding only."
+    },
+    {
+      "date": "2024-03-21",
+      "observation": "Gastroliths discovered in abdominal cavity. Diet included hard seeds and possibly small crustaceans."
+    },
+    {
+      "date": "2024-03-22",
+      "observation": "Pectoral girdle morphology shows fusion patterns unique to specimen. Possible sexual dimorphism marker."
+    },
+    {
+      "date": "2024-03-23",
+      "observation": "Trace element analysis suggests seasonal migration behavior. Strontium signatures indicate 200km range."
+    },
+    {
+      "date": "2024-03-24",
+      "observation": "Neural canal casting reveals enlarged optic lobes. Visual acuity estimated 3x modern raptorial birds."
+    },
+    {
+      "date": "2024-03-25",
+      "observation": "Biomechanical modeling complete. Take-off velocity calculated at 4.2 m/s from ground level."
+    },
+    {
+      "date": "2024-03-26",
+      "observation": "Coprolite analysis from surrounding matrix shows dietary overlap with contemporary species."
+    }
+  ],
+  "research_status": {
+    "active_studies": [
+      "Aerodynamic coefficient analysis",
+      "Molecular taphonomy investigation", 
+      "Paleoenvironmental reconstruction",
+      "Phylogenetic position refinement"
+    ],
+    "completion_rate": 67.3,
+    "next_phase": "Field testing of flight mechanics hypotheses"
+  },
+  "equipment": {
+    "scanning_electron_microscope": "Active - Resolution 0.1nm",
+    "micro_ct_scanner": "Active - 120kV, 0.05mm voxel size",
+    "mass_spectrometer": "Calibrated - Isotope analysis ready",
+    "uv_fluorescence_unit": "Standby - UV-A/UV-B capability",
+    "digital_microscope": "Active - 50x-2000x magnification"
+  }
+}

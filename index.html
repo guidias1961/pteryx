@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTERYX — From Fossil to Block | Evolution Documented on PulseChain</title>
+    <meta name="description" content="PTERYX: Archeopteryx evolution documented in blockchain. Observe, test, iterate through the fossil record to first flight on PulseChain.">
+    <link rel="canonical" href="https://pteryx.pulse">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="PTERYX — From Fossil to Block">
+    <meta property="og:description" content="Evolution documented in blocks. Observe. Test. Iterate.">
+    <meta property="og:image" content="./logo.png">
+    <meta property="og:url" content="https://pteryx.pulse">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PTERYX — From Fossil to Block">
+    <meta name="twitter:description" content="Evolution documented in blocks. Observe. Test. Iterate.">
+    <meta name="twitter:image" content="./logo.png">
+    
+    <link rel="preload" href="./styles.css" as="style">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Generate robots.txt with: User-agent: * Allow: / Sitemap: https://pteryx.pulse/sitemap.xml -->
+    <!-- Generate sitemap.xml with pages: /, /#lore, /#labs, /#press-kit -->
+</head>
+<body class="dark-mode">
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" aria-hidden="true"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="PTERYX home">
+                <span class="nav-logo-text">PTERYX</span>
+            </a>
+            <ul class="nav-menu" role="menubar">
+                <li role="none"><a href="#lore" class="nav-link" role="menuitem">Lore</a></li>
+                <li role="none"><a href="#flight-log" class="nav-link" role="menuitem">Flight Log</a></li>
+                <li role="none"><a href="#field-notes" class="nav-link" role="menuitem">Field Notes</a></li>
+                <li role="none"><a href="#labs" class="nav-link" role="menuitem">Labs</a></li>
+                <li role="none"><a href="#press-kit" class="nav-link" role="menuitem">Press Kit</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" aria-label="Toggle color mode" title="Toggle theme">
+                    <span class="theme-icon dark-icon" aria-hidden="true">🌙</span>
+                    <span class="theme-icon light-icon" aria-hidden="true">☀️</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero" role="banner">
+        <canvas class="hero-canvas" aria-hidden="true"></canvas>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">PTERYX</h1>
+                <p class="hero-subtitle">from fossil to block</p>
+                <p class="hero-description">Evolution documented in blocks. Observe. Test. Iterate.</p>
+            </div>
+            
+            <div class="character-card" role="img" aria-label="PTERYX character illustration">
+                <img src="./logo.png" alt="PTERYX - Stylized Archeopteryx" class="character-image">
+            </div>
+            
+            <div class="hero-ctas">
+                <a href="#" class="cta-button primary" role="button">Buy on PulseX</a>
+                <a href="#" class="cta-button secondary" role="button">Open X</a>
+                <a href="#" class="cta-button secondary" role="button">Join Telegram</a>
+                <a href="#press-kit" class="cta-button tertiary" role="button">Press Kit</a>
+            </div>
+            
+            <div class="contract-address" role="region" aria-label="Contract address">
+                <span class="contract-label">Contract:</span>
+                <button class="contract-copy" data-address="0x742d35Cc6635C0532925a3b8D323434567654321" 
+                        aria-label="Copy contract address to clipboard" title="Click to copy">
+                    0x742d35...654321
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lore Section -->
+    <section id="lore" class="lore">
+        <div class="container">
+            <h2 class="section-title">Evolutionary Timeline</h2>
+            <div class="timeline" role="list">
+                <div class="timeline-item" role="listitem">
+                    <div class="timeline-marker" aria-hidden="true">
+                        <svg class="feather-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/>
+                            <line x1="16" y1="8" x2="2" y2="22"/>
+                            <line x1="17.5" y1="15" x2="9" y2="15"/>
+                        </svg>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Fossil</h3>
+                        <p>Specimen preserved in limestone. Transitional morphology documented. Feathers detected in sedimentary matrix. Classification: Archaeopteryx lithographica.</p>
+                        <small>Block Height: Genesis</small>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" role="listitem">
+                    <div class="timeline-marker" aria-hidden="true">
+                        <svg class="feather-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/>
+                            <line x1="16" y1="8" x2="2" y2="22"/>
+                        </svg>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>First Feather</h3>
+                        <p>Asymmetrical flight feathers observed. Microscopic analysis reveals modern structure. Aerodynamic properties confirmed through computational fluid dynamics.</p>
+                        <small>Block Height: 150,000,000</small>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" role="listitem">
+                    <div class="timeline-marker" aria-hidden="true">
+                        <svg class="feather-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/>
+                        </svg>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>First Flight</h3>
+                        <p>Powered flight mechanism validated. Wing loading calculations support gliding capability. Transition from arboreal to aerial locomotion complete.</p>
+                        <small>Block Height: Current</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flight Log Section -->
+    <section id="flight-log" class="flight-log">
+        <div class="container">
+            <h2 class="section-title">Flight Log</h2>
+            <div class="flight-controls">
+                <input type="text" class="search-input" placeholder="Search flight records..." 
+                       aria-label="Search flight log entries">
+                <select class="filter-select" aria-label="Filter flight log entries">
+                    <option value="all">All Records</option>
+                    <option value="transaction">Transactions</option>
+                    <option value="observation">Observations</option>
+                    <option value="test">Tests</option>
+                </select>
+            </div>
+            <div class="flight-entries" role="list" aria-label="Flight log entries">
+                <!-- Populated by JavaScript -->
+            </div>
+            <button class="load-more" aria-label="Load more flight log entries">
+                Load More Entries
+            </button>
+        </div>
+    </section>
+
+    <!-- Field Notes Console -->
+    <section id="field-notes" class="field-notes">
+        <div class="container">
+            <h2 class="section-title">Field Notes</h2>
+            <div class="console" role="log" aria-label="Field notes console">
+                <div class="console-header">
+                    <span class="console-title">PTERYX Research Terminal</span>
+                    <div class="console-controls" aria-hidden="true">
+                        <span class="console-dot red"></span>
+                        <span class="console-dot yellow"></span>
+                        <span class="console-dot green"></span>
+                    </div>
+                </div>
+                <div class="console-body">
+                    <div class="console-output" aria-live="polite"></div>
+                    <div class="console-input-line">
+                        <span class="console-prompt" aria-hidden="true">pteryx@lab:~$</span>
+                        <input type="text" class="console-input" aria-label="Console command input" 
+                               placeholder="Type 'help' to start">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Labs Section -->
+    <section id="labs" class="labs">
+        <div class="container">
+            <h2 class="section-title">Flight Tests</h2>
+            <div class="labs-grid" role="list">
+                <div class="lab-card" role="listitem">
+                    <div class="lab-status completed" aria-label="Test completed"></div>
+                    <h3>Aerodynamic Analysis</h3>
+                    <p>Wind tunnel testing of feather structure under controlled conditions.</p>
+                    <button class="lab-button" data-test="aero">View Results</button>
+                </div>
+                <div class="lab-card" role="listitem">
+                    <div class="lab-status in-progress" aria-label="Test in progress"></div>
+                    <h3>Bone Density Mapping</h3>
+                    <p>CT scan analysis of hollow bone architecture for flight optimization.</p>
+                    <button class="lab-button" data-test="bones">View Progress</button>
+                </div>
+                <div class="lab-card" role="listitem">
+                    <div class="lab-status pending" aria-label="Test pending"></div>
+                    <h3>Flight Path Simulation</h3>
+                    <p>Computational modeling of prehistoric flight trajectories and energy efficiency.</p>
+                    <button class="lab-button" data-test="simulation">Queue Test</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feather Mint Section -->
+    <section id="feather-mint" class="feather-mint">
+        <div class="container">
+            <h2 class="section-title">Feather Mint</h2>
+            <div class="mint-card">
+                <h3>Specimen Collection</h3>
+                <p>Digital feather specimens will be available for research documentation. Each mint represents a unique evolutionary marker in the fossil record.</p>
+                <div class="mint-controls">
+                    <button class="mint-button" disabled aria-describedby="mint-tooltip">
+                        Mint Feather
+                    </button>
+                    <div id="mint-tooltip" class="mint-tooltip" role="tooltip">
+                        Minting functionality will be enabled after comprehensive testing protocols are complete.
+                    </div>
+                </div>
+                <div class="mint-faq">
+                    <details class="faq-item">
+                        <summary>When will minting be available?</summary>
+                        <p>Following successful completion of all flight test protocols and community consensus.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>What utilities will feathers provide?</summary>
+                        <p>Access to exclusive research data, voting on test parameters, and early access to new discoveries.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Press Kit Section -->
+    <section id="press-kit" class="press-kit">
+        <div class="container">
+            <h2 class="section-title">Press Kit</h2>
+            <div class="press-content">
+                <div class="press-downloads">
+                    <h3>Brand Assets</h3>
+                    <div class="download-grid">
+                        <a href="./logo.png" download class="download-button">
+                            <span class="download-icon" aria-hidden="true">⬇</span>
+                            Logo PNG
+                        </a>
+                        <a href="./brand.json" download class="download-button">
+                            <span class="download-icon" aria-hidden="true">⬇</span>
+                            Brand Guide
+                        </a>
+                        <a href="./social-banner.png" download class="download-button">
+                            <span class="download-icon" aria-hidden="true">⬇</span>
+                            Social Banner
+                        </a>
+                    </div>
+                </div>
+                <div class="press-guidelines">
+                    <h3>Usage Guidelines</h3>
+                    <ul>
+                        <li>Logo must maintain minimum 24px height</li>
+                        <li>Preserve logo proportions and clear space</li>
+                        <li>Use provided color palette for consistency</li>
+                        <li>Scientific accuracy required in all communications</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Buy Button -->
+    <button class="mobile-buy-button" aria-label="Buy PTERYX on PulseX">
+        Buy PTERYX
+    </button>
+
+    <!-- Modal Container -->
+    <div class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-body">
+                <!-- Content populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js" defer></script>
+</body>
+</html>
